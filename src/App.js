@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <p>{data[text][prog]}</p>
+        <p className="text-stim">{data[text][prog]}</p>
 
         {(prog<max_prog) && <button onClick={handleNext}>Next</button>}
 
